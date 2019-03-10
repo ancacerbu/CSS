@@ -1,0 +1,7 @@
+body {background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+        text-shadow: 4px 4px 8px #5ac6d48c;
+        color: rgb(22, 23, 83)
+      }
+      input[type=email]:hover {color:red;}
+
+      

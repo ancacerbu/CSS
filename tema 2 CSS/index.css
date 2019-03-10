@@ -1,0 +1,19 @@
+li:nth-child(2n+2) {color:green;}  /*Fiecare element par listei sa aia textul verde*/
+li:nth-child(5n+3) {background: rgb(91, 91, 214) } /*Al 3-lea element al listei trebuie sa aiba background-ul albastru deschis*/
+li:nth-child(7n+1) {border-top: solid 1px green;}/*Primul element al listei trebuie sa aiba bordura sus de tip solid de 1px si sa fie verde*/
+li:nth-child(7n+7) {border-bottom: dashed 5px blue}/*Ultimul element al listei trebuie sa aiba bordura jos de tip punctata de 5px si sa fie albastra*/
+li:nth-child(5n+3)>a,li:nth-child(5n+5)>a {color:red ;}/*Link-urile pentru elementele de pe pozitiile 3 si 5 trebuie sa fie rosii*/
+li:nth-child(5n+5)>a:hover { color:rgb(180, 176, 176);}/*Link-ul pentru elementul de pe pozitia 5 trebuie sa se faca gri atunci cand ducem mouse-ul
+deasupra lui*/
+li:nth-child(3n+2) {list-style-type:none;}/*Elementele de pe pozitiile 2 si 5 trebuie sa ramana fara “bullet point”*/
+input[type=text]:focus {background: rgb(118, 121, 118);}/*Input-urile de tip text trebuie sa aiba fundal gri atunci cand sunt focusate*/
+[placeholder*="fi"] {color:green;}/*Input-ul corespunzator “First Name” trebuie sa aiba textul de culoarea verde atunci cand scriem in
+el*/
+[placeholder^="las"] {color:rgb(9, 51, 167);}/*Input-ul corespunzator “Last Name” trebuie sa aiba textul de culoarea albastra atunci cand scriem
+in el*/
+[placeholder^="pass"] {color:white;}/*Input-ul pentru parola trebuie sa aiba textul invizibil atunci cand scriem in el*/
+input[type=submit]:hover {color:red;}/*Butonul de trimitere a formularului trebuie sa aiba textul rosu atunci cand trecem cu mouse-ul
+peste el*/
+input[type=email]::selection {color:pink;
+background:yellow; }/*Atunci cand selectam textul unui e-mail scris deja in input-ul pentru e-mail, selectia trebuie sa
+aiba fundalul galben iar culoarea textului sa fie roz*/

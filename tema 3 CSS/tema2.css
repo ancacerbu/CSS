@@ -1,0 +1,10 @@
+input[type=text]:focus {background:palevioletred;}
+body {background: rgb(87, 194, 61);
+      background-position: 99% center;
+      background-image: url(https://jolie-flowers.themelabs.co.uk/img/top-banner.png);
+      background-repeat: no-repeat;
+      padding: 20px;
+}
+input[type=text],input[type=email],input[type=file],input[type=number],input[type=submit] {border:rgb(3, 61, 3) solid 2px ;
+}
+input[type=reset] {color:red; border-radius: 20px 10px;}

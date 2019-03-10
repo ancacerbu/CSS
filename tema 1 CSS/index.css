@@ -1,0 +1,25 @@
+ul {
+  color: red;
+}
+div {
+  border: 1px solid black;
+}
+div a {
+  color: green;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+p.mesaj {
+  font-style: italic;
+}
+a {
+  color: red;
+}
+ul {
+  font-family: 'Tangerine', serif;
+  font-size: 25px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+a.exp {color:#c55;}

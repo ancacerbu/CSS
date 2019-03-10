@@ -1,0 +1,35 @@
+.meniu {position: absolute;
+        border:rgb(212, 43, 142) solid 2px;
+        margin-inline-end: 380px;
+        padding-inline-end: 15px;
+        padding-top: 1em;}
+.header {
+    border:orange solid 2px;
+            padding: 5px;
+            text-align: center;
+            margin-inline-start: 129px;
+           
+          }        
+.conta {position: relative;
+        border:rgb(0, 140, 255) solid 1px;
+        padding: 0;
+        }
+.continut {
+         border:orange solid 3px;
+         padding: 1px;
+         text-align: center;
+         margin-inline-start: 129px;
+                   }  
+.incheiere {
+    border:orange solid 2px;
+    padding: 10px;
+    text-align: center;
+    margin-inline-start: 129px;
+              }    
+              
+              .footer {
+                border:rgb(28, 179, 8) solid 1px;
+                position: relative;
+               
+              }
+                    

@@ -1,0 +1,39 @@
+* {
+        box-sizing: border-box;
+      }
+      .clearfix { border:rgb(43, 96, 212) solid 2px;
+        overflow: auto;
+      }
+
+
+ .meniu { 
+        border:rgb(212, 43, 142) solid 2px;
+        float: left;
+        width: 20%;
+        }
+.header {
+        border:orange solid 2px;
+        padding: 5px;
+        text-align: center;
+        float: right;
+        width: 80%;
+        }        
+
+.continut {
+        border:orange solid 3px;
+        padding: 1px;
+        text-align: center;
+        float: right;
+       width: 80%;}
+.incheiere {
+        border:orange solid 2px;
+        padding: 10px;
+        text-align: center;
+        float: right;
+        width: 80%; }   
+              
+              .footer {
+                border:rgb(28, 179, 8) solid 1px;
+        float: none;
+                        }
+                    
