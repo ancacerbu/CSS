@@ -34,6 +34,6 @@
               
               .footer {
                 border:rgb(28, 179, 8) solid 1px;
-        float: none;
+        clear:both;
                         }
                     
