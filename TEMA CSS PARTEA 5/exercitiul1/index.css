@@ -47,8 +47,9 @@
     background-repeat: no-repeat;
     background-size: 250px 250px;
 }
-body .footer  {
-    
+.footer  {
+    position:fixed;
+    bottom:0;
     background-color: rgba(58, 223, 58, 0.301); 
     height: 70px;  
 }   
