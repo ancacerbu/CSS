@@ -30,6 +30,7 @@
 }
 .item6{ grid-column: 23 / 40;
     grid-row: 2 / 4;
+    background-color:white;
    
     background-image: url(lalea.jpg) ;
     background-size:480px 680px; 
