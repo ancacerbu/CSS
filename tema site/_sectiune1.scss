@@ -1,0 +1,58 @@
+
+  .sectiune1 {
+    background-color:white;
+    margin: 0 auto; 
+    max-width: 60em;
+    line-height: 1.5;
+    overflow: auto; 
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  /*Flex items*/
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-item {
+      display: flex; 
+    padding: 0.5em;
+      width: 100%;
+  }
+  @media all and (min-width: 20em) {
+    .list-item {
+      width: 50%;
+    }
+  }
+  @media all and (min-width: 10px) {
+    .list-item {
+      width: 33.33%;
+    }
+  }
+  .list1, .list2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    border-right-style:solid;
+    border-right-color: blue;
+    }
+    .list3{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;}
+    
+  .list1 p {
+      flex: auto;
+  }
