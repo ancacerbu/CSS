@@ -1,16 +1,27 @@
-.secectiune2p {display:block;
-  background-color: rgb(25, 93, 172);
+.secectiune2 {
+  display:block;
+  background-color: rgb(47, 125, 199);
   text-align: center;
-  color: white;
   padding: 30px;
-  float:left;
+  overflow: auto;
+  margin:auto;
 }
-img {
+.introducere{
+  color:white;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(47, 125, 199);
+  text-align: center;
+}
+.sectiune2 img {
   border-radius: 50%;
+  
   }
-.sectiune2 {   
+.coloane {   
 display:flex;
-background-color: rgb(25, 93, 172); 
+background-color: rgb(47, 125, 199); 
 margin:auto;
 overflow: auto;
 justify-content: space-around;
@@ -22,7 +33,7 @@ text-align: center;
 padding:10px;
 overflow: auto;  
 border: solid 1px white;
-background-color: rgb(25, 93, 172);
+background-color: rgb(47, 125, 199);
 }
 
   

@@ -1,58 +1,22 @@
-
-  .sectiune1 {
-    background-color:white;
-    margin: 0 auto; 
-    max-width: 60em;
-    line-height: 1.5;
-    overflow: auto; 
-  }
-  ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  h2 {
-    margin-top: 0;
-    margin-bottom: 0.4em;
-  }
+.sectiune1 {
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width:auto;
+  height: auto;}
   
-  /*Flex items*/
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .list-item {
-      display: flex; 
-    padding: 0.5em;
-      width: 100%;
-  }
-  @media all and (min-width: 20em) {
-    .list-item {
-      width: 50%;
-    }
-  }
-  @media all and (min-width: 10px) {
-    .list-item {
-      width: 33.33%;
-    }
-  }
-  .list1, .list2 {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 100%;
-    border-right-style:solid;
-    border-right-color: blue;
-    }
-    .list3{
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        width: 100%;}
-    
-  .list1 p {
-      flex: auto;
-  }
+.sectiune1 > div {
+  scroll-padding-inline: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+  text-align: left;
+  
+}
+.sectiune1>div:first-child, .sectiune1>div:nth-of-type(2) {
+  border-right:solid 1px rgb(47, 125, 199);
+}
+
+

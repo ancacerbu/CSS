@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.vederi {
+  flex-direction: row;
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+.sectiune3:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+.prezentare:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.prezentare{
+text-align:center;
+}
+@media screen and (max-width:600px) {
+  .vederi,.prezentare {
+    width: 100%;
+    flex-direction: row;
+  }
+}
